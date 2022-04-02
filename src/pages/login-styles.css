@@ -1,0 +1,13 @@
+.login::before {
+  content: url(/public/svgs/home-sky-mobile.svg);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+@media (min-width: 2000px) {
+  .login::before {
+    content: "";
+  }
+}
